@@ -18,7 +18,7 @@ function Card(){
                 </div>
             </div>
             <div className='container-img'>
-                    <img src="../../../images/image-header-desktop.jpg" alt="" />
+                    <img src="../../../../images/image-header-desktop.jpg" alt="" />
             </div>
         </div>
     )
