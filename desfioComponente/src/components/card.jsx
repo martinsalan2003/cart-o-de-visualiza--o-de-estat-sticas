@@ -18,7 +18,7 @@ function Card(){
                 </div>
             </div>
             <div className='container-img'>
-                    <img src="https://github.com/martinsalan2003/cart-o-de-visualiza--o-de-estat-sticas/blob/main/desfioComponente/images/image-header-desktop.jpg" alt="" />
+                    <img src="../../../images/image-header-desktop.jpg" alt="" />
             </div>
         </div>
     )
