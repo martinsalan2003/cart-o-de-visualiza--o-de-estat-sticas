@@ -11,9 +11,9 @@ function Card(){
                 Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall eficciency.
                 </p>
                 <div className="container-num">
-                    <div className="num1"><h2>10K+</h2><p className='txt-num'>COMPANTES</p></div>
-                    <div className="num2"><h2>314</h2><p className='txt-num'>TEMPLATES</p></div>
-                    <div className="num3"><h2>12M+</h2><p className='txt-num'>QUERTES</p></div>
+                    <div className="num1 global"><h2>10K+</h2><p className='txt-num'>COMPANTES</p></div>
+                    <div className="num2 global"><h2>314</h2><p className='txt-num'>TEMPLATES</p></div>
+                    <div className="num3 global"><h2>12M+</h2><p className='txt-num'>QUERTES</p></div>
                     
                 </div>
             </div>

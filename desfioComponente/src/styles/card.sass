@@ -38,13 +38,60 @@
                 color: $cordafontdosparagrafos
                 font-family: "Roboto", serif
                 font-weight: 400
-    img
-        width: 100%
-        height: 100%
-        border-bottom-right-radius: 10px
-        border-top-right-radius: 10px
+    
+    .container-img
+        width: 50%
+    
+        img
+            width: 100%
+            height: 100%
+            border-bottom-right-radius: 10px
+            border-top-right-radius: 10px
 
 
+// para dispositivos mobile
+@media (max-width: 768px)
+    .container-card
+        flex-direction: column-reverse
+        height: auto
+        width: 70vw
+
+        .container-info
+            width: 100%
+            padding: 10px 20px
+            h1
+                margin-top: 25px
+                font-size: 1.6em
+                text-align: center
+            p
+                text-align: center
+                font-size: 0.5em
+
+            .container-num
+                padding-bottom: 25px 
+                flex-direction: column
+                align-items: center
+                gap: 25px
+
+                h2
+                    text-align: center
+                    font-size: larger
+                p
+                    font-size: large
+
+                .global
+                    width: 100%
+                    display: flex
+                    flex-direction: column
+                    
+
+        .container-img
+            width: 100%
+
+            img
+                border-top-left-radius: 10px
+                border-bottom-right-radius: 0
+            
 
 
-  
+            
